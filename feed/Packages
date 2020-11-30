@@ -410,6 +410,20 @@ Priority: optional
 Source: 
 
 
+Package: enigma2-plugin-extensions-sundtekcontrolcenter
+Version: 20200915-2
+Section: extra
+Architecture: all
+MD5Sum: 110477e71058429ba6313b4019b0cc16
+Size: 97788
+Filename: enigma2-plugin-extensions-sundtekcontrolcenter_20200915-2_all.ipk
+Description: control sundtek usb stick from enigma2
+Maintainer: Sundtek
+Priority: optional
+Homepage: http://support.sundtek.de
+OE: sundtekcontrolcenter-20200915-2
+
+
 Package: enigma2-plugin-extensions-alajre-quran
 Version: 1.0
 Depends: python-requests
@@ -680,19 +694,6 @@ Size: 312384
 Filename: enigma2-plugin-skins-pli-hd-talbs-mod-shd-picon_0.2_all.ipk
 Description: PLiHD skin with SHD picon support
 Maintainer: talbs
-Priority: optional
-Source: 
-
-
-Package: enigma2-plugin-extensions-e2piconizer
-Version: 1.12.20200815
-Section: misc
-Architecture: all
-MD5Sum: 61f331e98c917131be21836f4f102721
-Size: 2752650
-Filename: enigma2-plugin-extensions-e2piconizer_1.12.20200815_all.ipk
-Description: E2 Piconizer - Picon Downloader/Creator
-Maintainer: kiddac
 Priority: optional
 Source: 
 
@@ -1308,6 +1309,19 @@ Homepage: none
 OE: MediaPortal
 
 
+Package: enigma2-plugin-extensions-e2piconizer
+Version: 1.13.20201122
+Section: misc
+Architecture: all
+MD5Sum: 997a864a56951b184f58da81766c48ec
+Size: 2752672
+Filename: enigma2-plugin-extensions-e2piconizer_1.13.20201122_all.ipk
+Description: E2 Piconizer - Picon Downloader/Creator
+Maintainer: kiddac
+Priority: optional
+Source: {"Type":"Plugin","Title":"E2 Piconizer - Picon Downloader/Creator","LastUpdated":"1606086598"}
+
+
 Package: enigma2-plugin-extensions-newtube
 Version: 0.1a-r0
 Section: base
@@ -1649,6 +1663,22 @@ Description: Army MoodBlue HD skin modded by Taykun345 for OpenPLi 2.1 and 3.0
 Maintainer: Taykun345
 Priority: optional
 Source: 
+
+
+Package: enigma2-plugin-extensions-xcplugin-forever
+Version: 1.3a
+Section: base
+Architecture: all
+MD5Sum: 601b0978f953f156c3cfa56595677c2d
+Size: 925170
+Filename: enigma2-plugin-extensions-xcplugin-forever_1.3a_all.ipk
+Description: XCplugin-Forever Version by Lululla & MMark
+Maintainer: lululla
+Priority: optional
+Source: /
+Homepage: linuxsat-support forum
+OE: 2.0 - 2.2 - 2.5 -2.6
+License: *
 
 
 Package: enigma2-plugin-extensions-moviebrowser
