@@ -103,6 +103,20 @@ Homepage: www.openpli.org
 OE: enigma2-plugin-skins
 
 
+Package: enigma2-plugin-extensions-translator
+Version: 1.4rc2-fhd-edition
+Section: misc
+Architecture: all
+MD5Sum: 31d876c9a07f15e024645650f4ef02d2
+Size: 1902574
+Filename: enigma2-plugin-extensions-translator_1.4rc2-fhd-edition_all.ipk
+Description: EPG YouTube Trailer & Translator by kashmir
+Maintainer: Kashmir
+Priority: optional
+Source: 
+Homepage: 
+
+
 Package: enigma2-plugin-extensions-csfd
 Version: 11-55-20160929
 Section: base
@@ -594,6 +608,19 @@ Priority: optional
 OE: enigma2
 
 
+Package: enigma2-plugin-extensions-e2piconizer
+Version: 1.14.20201213
+Section: misc
+Architecture: all
+MD5Sum: 3976bbee8be135758d50cf220d47c44b
+Size: 2752572
+Filename: enigma2-plugin-extensions-e2piconizer_1.14.20201213_all.ipk
+Description: E2 Piconizer - Picon Downloader/Creator
+Maintainer: kiddac
+Priority: optional
+Source: 
+
+
 Package: enigma2-plugin-extensions-enhancedmoviecenter
 Version: 4.0+git1577+20181110
 Depends: python-json, python-html, python-requests, python-mutagen
@@ -896,19 +923,6 @@ Filename: enigma2-plugin-extensions-pravoslavietv_0.2_all.ipk
 Description: IPTV - Soyuz, Spas, Voskresenie, Radonezh
 Maintainer: Dimitrij <dima-73@inbox.lv>
 Priority: optional
-
-
-Package: enigma2-plugin-extensions-translator
-Version: 1.1rc1
-Section: extra
-Architecture: all
-MD5Sum: e5e86ea89ad0b167a5b90575c8914bb5
-Size: 1820920
-Filename: enigma2-plugin-extensions-translator_1.1rc1_all.ipk
-Description: EPG YouTube Trailer & Translator Plugin
-Maintainer: kashmir
-Priority: optional
-Homepage: http://www.kashmir-plugins.de
 
 
 Package: enigma2-plugin-extensions-tectimetv
@@ -1307,19 +1321,6 @@ Priority: optional
 Source: GIT
 Homepage: none
 OE: MediaPortal
-
-
-Package: enigma2-plugin-extensions-e2piconizer
-Version: 1.13.20201122
-Section: misc
-Architecture: all
-MD5Sum: 997a864a56951b184f58da81766c48ec
-Size: 2752672
-Filename: enigma2-plugin-extensions-e2piconizer_1.13.20201122_all.ipk
-Description: E2 Piconizer - Picon Downloader/Creator
-Maintainer: kiddac
-Priority: optional
-Source: {"Type":"Plugin","Title":"E2 Piconizer - Picon Downloader/Creator","LastUpdated":"1606086598"}
 
 
 Package: enigma2-plugin-extensions-newtube
