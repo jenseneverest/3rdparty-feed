@@ -1,6 +1,7 @@
 #!/bin/sh
 
 rename 'y/A-Z/a-z/' *.ipk
+rm -f *overlayhd*
 find . -name '*picons*' -type f | xargs rm -f
 mkdir -p files
 mv -f *.ipk files/
