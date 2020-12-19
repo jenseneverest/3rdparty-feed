@@ -163,6 +163,22 @@ Homepage: www.gisclub.tv
 OE: 
 
 
+Package: enigma2-plugin-extensions-xcplugin-forever
+Version: 1.4
+Section: base
+Architecture: all
+MD5Sum: 93f2363937188da86e53af1a2b1ba50f
+Size: 1246114
+Filename: enigma2-plugin-extensions-xcplugin-forever_1.4_all.ipk
+Description: XCplugin-Forever Version by Lululla & MMark
+Maintainer: lululla
+Priority: optional
+Source: /
+Homepage: linuxsat-support forum
+OE: 2.0 - 2.2 - 2.5 -2.6
+License: *
+
+
 Package: DreamPlex
 Version: 1.07
 Section: extra
@@ -1635,23 +1651,6 @@ Priority: optional
 Homepage: http://www.kashmir-plugins.de
 
 
-Package: enigma2-plugin-skins-OverlayHD
-Version: 1.82
-Depends: beyonwiz-version-info (>= 19.3-20191106.0) | openatv-version-info (>= 6.4-0) | openpli-bootlogo (>= 20200328) | openvix-version-info (>= 5.3-024)
-Section: skins
-Architecture: all
-MD5Sum: e1df6033af91e2dd3e41e6009f41a254
-Size: 10365424
-Filename: enigma2-plugin-skins-overlayhd_1.82_all.ipk
-Description: OverlayHD skin and management plugin for Enigma2 PVRs
-Maintainer: IanSav <IS.OzPVR@gmail.com>
-Priority: optional
-Source: git://bitbucket.org/IanSav/overlayhd.git;protocol=https
-Homepage: https://www.bitbucket.org/IanSav/
-OE: enigma2-plugin-skins-OverlayHD
-License: GPLv2+
-
-
 Package: enigma2-plugin-skins-army-moodblue-mod-pli
 Version: 0.9
 Depends: enigma2
@@ -1664,22 +1663,6 @@ Description: Army MoodBlue HD skin modded by Taykun345 for OpenPLi 2.1 and 3.0
 Maintainer: Taykun345
 Priority: optional
 Source: 
-
-
-Package: enigma2-plugin-extensions-xcplugin-forever
-Version: 1.3a
-Section: base
-Architecture: all
-MD5Sum: 601b0978f953f156c3cfa56595677c2d
-Size: 925170
-Filename: enigma2-plugin-extensions-xcplugin-forever_1.3a_all.ipk
-Description: XCplugin-Forever Version by Lululla & MMark
-Maintainer: lululla
-Priority: optional
-Source: /
-Homepage: linuxsat-support forum
-OE: 2.0 - 2.2 - 2.5 -2.6
-License: *
 
 
 Package: enigma2-plugin-extensions-moviebrowser
