@@ -133,20 +133,6 @@ OE: enigma2-plugins
 License: unknown
 
 
-Package: enigma2-plugin-extensions-cccaminfo
-Version: 1.4
-Section: base
-Architecture: all
-MD5Sum: e0902d48939573b2a6fde76765d5eeac
-Size: 45928
-Filename: enigma2-plugin-extensions-cccaminfo_1.4_all.ipk
-Description: Enigma2 Plugin: cccaminfo GUI that allows you to check the CCcam status
-Maintainer: AliAbdul, Gruffy, Hutten, Nemesis, WeeGull, Dimitrij
-Priority: optional
-Homepage: unknown
-OE: 2.0
-
-
 Package: enigma2-plugin-extensions-weather_msn
 Version: 0.8-r1
 Depends: 
@@ -785,19 +771,6 @@ Homepage:
 OE: ipkg-tools-1.0
 
 
-Package: enigma2-plugin-extensions-vcs
-Version: 2.7
-Section: base
-Architecture: all
-MD5Sum: 10e0d16352d211dc31c4a0985e16be8c
-Size: 21354
-Filename: enigma2-plugin-extensions-vcs_2.7_all.ipk
-Description: video clipmodes switcher for enigma2
-Maintainer: vlamo <vlamodev@gmail.com>
-Priority: optional
-OE: enigma2
-
-
 Package: enigma2-plugin-extensions-screengrabber
 Version: 2.5
 Depends: 
@@ -994,6 +967,19 @@ Maintainer: gutemine <gutemine@oozoon.de>
 Priority: optional
 Homepage: www.oozoon-board.de
 OE: enigma2-plugins
+
+
+Package: enigma2-plugin-extensions-vcs
+Version: 2.9
+Section: base
+Architecture: all
+MD5Sum: 732ea4a7eae8ab339555cea3ef72eee5
+Size: 21520
+Filename: enigma2-plugin-extensions-vcs_2.9_all.ipk
+Description: video clipmodes switcher for enigma2
+Maintainer: vlamo <vlamodev@gmail.com>
+Priority: optional
+OE: enigma2
 
 
 Package: enigma2-plugin-extensions-serienrecorder
