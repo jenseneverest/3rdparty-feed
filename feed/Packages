@@ -1112,6 +1112,25 @@ Priority: optional
 OE: enigma2-plugin-extensions-piconsupdater
 
 
+Package: enigma2-plugin-linuxsat-e2iplayer
+Version: h1+git3894+c661b57-r4
+Depends: python-core
+Conflicts: enigma2-plugin-extensions-e2istream
+Replaces: enigma2-plugin-extensions-e2istream
+Section: multimedia
+Architecture: all
+MD5Sum: 50f2ba333296cdc3f279f3847f2dd394
+Size: 10802856
+Filename: enigma2-plugin-linuxsat-e2iplayer_h1+git3894+c661b57-r4_all.ipk
+Description: E2iPlayer maxbambi fork
+Maintainer: enigma1969
+Priority: optional
+Source: enigma2-plugin-extensions-e2iplayer.bb
+Homepage: https://gitlab.com/mario/e2iplayer
+OE: enigma2-plugin-extensions-e2iplayer
+License: PD
+
+
 Package: enigma2-plugin-skins-black-blue-hd
 Version: 1.2_r2
 Section: skins
@@ -2249,6 +2268,20 @@ Filename: enigma2-plugin-extensions-tsvpn_1.3-by-raed_all.ipk
 Description: OpenVpn plugin to download and Active/start/stop vpn
 Maintainer: RAED (rrrr53@hotmail.com)
 Priority: optional
+
+
+Package: enigma2-plugin-linuxsat-xstreamity
+Version: 2.82.20210111
+Section: misc
+Architecture: all
+MD5Sum: 0a2975aad5e1c6a8d8933d845770b89d
+Size: 2091120
+Filename: enigma2-plugin-linuxsat-xstreamity_2.82.20210111_all.ipk
+Description: IPTV Xtream Codes playlists player by KiddaC
+Maintainer: kiddac
+Priority: optional
+Source: linuxsat-support.com
+Homepage: 
 
 
 Package: enigma2-plugin-extensions-transmission
